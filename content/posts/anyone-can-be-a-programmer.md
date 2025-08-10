@@ -2,10 +2,9 @@
 title: "Anyone Can Be a Programmer"
 date: 2025-08-09T10:00:00Z
 draft: false
+category: ["ai", "natural langauge programming"]
 tags: ["hugo", "blog"]
 ---
-
-# Anyone Can Be a Programmer
 
 Software programming has fundamentally changed with the rise of AI-assisted programming. Today, anyone can turn their ideas into working software without writing a single line of traditional code. AI tools like Claude and ChatGPT have changed who can be a programmer and how programming works.
 
