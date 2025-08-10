@@ -2,9 +2,23 @@
 title: "Anyone Can Be a Programmer"
 date: 2025-08-09T10:00:00Z
 draft: false
-category: ["ai", "natural langauge programming"]
-tags: ["hugo", "blog"]
+category: ["ai"]
+tags: ["ai", "blog", "natural langauge programming"]
 ---
+
+Listen here
+<audio controls>
+
+  <source src="/podcasts/Anyone_Can_Be_a_Programmer_Podcast.m4a" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+Watch here
+<video width="100%" controls>
+
+  <source src="/videos/Anyone_Can_Be_a_Programmer_Video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 Software programming has fundamentally changed with the rise of AI-assisted programming. Today, anyone can turn their ideas into working software without writing a single line of traditional code. AI tools like Claude and ChatGPT have changed who can be a programmer and how programming works.
 
@@ -16,7 +30,6 @@ This accessibility is game-changing. It means domain experts can build their own
 
 These concerns bring us to a fundamental question: If Natural Language Programming is truly the next evolution, how does it fit with the software engineering principles we've spent decades perfecting? Can we maintain the rigor of traditional development while embracing this radical accessibility?
 To answer this, we need to first understand programming's historical evolution and why this moment is different from, yet connected to, everything that came before.
-
 
 ## The Evolution: From Assembly to Natural Language programming
 
@@ -31,7 +44,6 @@ Next evolutionary leap came by introduction of languages that progressed far bey
 Natural Language programming seems to fit the next evolutionary leap in this progression, but with a twist that fundamentally changes the nature of programming itself. Just as Python programmers don't worry about C internals, Natural Language programmers can focus purely on describing what they want to accomplish rather than how to implement it. They can express complex requirements in natural language and the AI generates the necessary implementation code.
 At first glance, this seems like simply adding another layer to the stack we've been building for decades. But here's where this evolution diverges from all previous ones. When Python calls C functions, it's calling predetermined, tested code that behaves identically every time. These layers are deterministic: same input, same output, every time.
 AI operates fundamentally differently. It doesn't translate your request through fixed rules like a compiler. Instead, it interprets intent and generates new solutions each time, bringing unprecedented flexibility to understand context and nuance in ways no previous abstraction layer could. But this revolutionary capability also introduces entirely new challenges: variability, unpredictability, and the need for human oversight, that no previous programming evolution has faced.
-
 
 ## Key Challenges of Natural Language programming
 
@@ -63,7 +75,6 @@ However, in the case of natural language programming, there are no standardized 
 
 When both challenges are combined, it amplifies the variability of the output by AIs.
 Given these significant challenges, we might wonder if Natural Language programming is worth pursuing. The answer is yes, but only if we approach it with the right mindset and methodology.
-
 
 ## How to perfect the art of Natural Language programming
 
@@ -115,4 +126,3 @@ This review process helps catch issues that automated testing might miss and ens
 Natural Language programming represents more than just a new tool, it's a fundamental shift in how we think about software creation. By following engineering principles and structured methodologies, we can harness AI's power while maintaining the quality standards that users deserve.
 
 The democratization of programming through AI is inevitable. However, the responsibility to build safe, secure, and robust software remains with us. We require the understanding and applying the fundamental principles of software engineering in this new era of software developemnt. We owe this to our users, to keep the softwares safe and enjoyable.
-
