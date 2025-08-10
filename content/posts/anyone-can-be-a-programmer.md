@@ -6,16 +6,14 @@ category: ["ai"]
 tags: ["ai", "blog", "natural langauge programming"]
 ---
 
-Listen here
+Listen to the article
 <audio controls>
-
-  <source src="https://monraza.github.io/podcasts/Anyone_Can_Be_a_Programmer_Podcast.m4a" type="audio/mpeg">
+  <source src="/podcasts/Anyone_Can_Be_a_Programmer_Podcast.m4a" type="audio/mpeg" />
   Your browser does not support the audio element.
 </audio>
 
 Watch here
 <video width="100%" controls>
-
   <source src="/videos/Anyone_Can_Be_a_Programmer_Video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
