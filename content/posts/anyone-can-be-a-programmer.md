@@ -9,7 +9,7 @@ tags: ["ai", "blog", "natural langauge programming"]
 Listen here
 <audio controls>
 
-  <source src="/podcasts/Anyone_Can_Be_a_Programmer_Podcast.m4a" type="audio/mpeg">
+  <source src="https://monraza.github.io/podcasts/Anyone_Can_Be_a_Programmer_Podcast.m4a" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
