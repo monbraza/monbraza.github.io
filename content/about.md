@@ -1,6 +1,8 @@
 ---
 showMeta: false
 showDate: false
+showReadingTime: false
+showWordCount: false
 ---
 
 ## Solutions Architect / Technology Manager / Full Stack Lead Developer
