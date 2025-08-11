@@ -6,7 +6,7 @@ category: ["ai"]
 tags: ["ai", "blog", "natural langauge programming"]
 ---
 
-<div style="float: right; width: 250px; margin: 0 0 20px 20px; padding: 15px; background: transparent; border-left: 4px solid #007acc; font-size: 0.9em;">
+<div style="position:fixed;right:0;width:350px;margin:0 0 20px 20px;padding:15px;background:0 0;border-left:4px solid #007acc;font-size:.9em">
   <strong>🎧 Also Available:</strong><br>
   Listen as a podcast<br>
   <audio controls>
