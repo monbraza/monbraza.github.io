@@ -6,17 +6,19 @@ category: ["ai"]
 tags: ["ai", "blog", "natural langauge programming"]
 ---
 
-Listen to the article
-<audio controls>
-  <source src="/podcasts/Anyone_Can_Be_a_Programmer_Podcast.m4a" type="audio/mpeg" />
-  Your browser does not support the audio element.
-</audio>
-
-Watch here
-<video width="100%" controls>
-  <source src="/videos/Anyone_Can_Be_a_Programmer_Video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div style="float: right; width: 250px; margin: 0 0 20px 20px; padding: 15px; background: transparent; border-left: 4px solid #007acc; font-size: 0.9em;">
+  <strong>🎧 Also Available:</strong><br>
+  Listen as a podcast<br>
+  <audio controls>
+    <source src="/podcasts/Anyone_Can_Be_a_Programmer_Podcast.m4a" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio> 
+  <br><br>Watch key points<br>
+  <video width="100%" controls>
+    <source src="/videos/Anyone_Can_Be_a_Programmer_Video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 Software programming has fundamentally changed with the rise of AI-assisted programming. Today, anyone can turn their ideas into working software without writing a single line of traditional code. AI tools like Claude and ChatGPT have changed who can be a programmer and how programming works.
 
