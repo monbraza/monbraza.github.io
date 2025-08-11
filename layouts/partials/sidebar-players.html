@@ -1,0 +1,20 @@
+<div class="mt-10 text-neutral-800 dark:text-neutral-100">
+    {{ with .Params.audio_url }}
+    <div class="mb-2">
+        <h3 class="mt-0 text-lg">🎧 Listen as a podcast</h3>
+        <div class="flex">
+        <audio controls src="{{ . }}">
+            Your browser does not support the audio element.
+        </audio>
+        </div>
+    </div>
+    {{ end }}
+    {{ with .Params.video_url }}
+    <div class="mt-6 mb-2 rounded-md box-border mt-4">
+        <h3 class="mt-0 text-lg">Watch key points</h3>
+        <video controls src="{{ . }}" class="w-full max-w-full border border-gray-400 p-2 box-border">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    {{ end }}
+</div>

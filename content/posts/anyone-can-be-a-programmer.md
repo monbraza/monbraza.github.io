@@ -2,23 +2,16 @@
 title: "Anyone Can Be a Programmer"
 date: 2025-08-09T10:00:00Z
 draft: false
-category: ["ai"]
-tags: ["ai", "blog", "natural langauge programming"]
+categories: ["AI & Programming"]
+tags: ["ai", "programming", "natural-language", "productivity", "audio", "video"]
+
+# Media URLs - Replace with your actual media files
+audio_url: "/podcasts/Anyone_Can_Be_a_Programmer_Podcast.m4a"
+video_url: "/videos/Anyone_Can_Be_a_Programmer_Video.mp4"
 ---
 
-<div style="position:fixed;right:0;width:350px;margin:0 0 20px 20px;padding:15px;background:0 0;border-left:4px solid #007acc;font-size:.9em">
-  <strong>🎧 Also Available:</strong><br>
-  Listen as a podcast<br>
-  <audio controls>
-    <source src="/podcasts/Anyone_Can_Be_a_Programmer_Podcast.m4a" type="audio/mpeg" />
-    Your browser does not support the audio element.
-  </audio> 
-  <br><br>Watch key points<br>
-  <video width="100%" controls>
-    <source src="/videos/Anyone_Can_Be_a_Programmer_Video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
+
+
 
 Software programming has fundamentally changed with the rise of AI-assisted programming. Today, anyone can turn their ideas into working software without writing a single line of traditional code. AI tools like Claude and ChatGPT have changed who can be a programmer and how programming works.
 
