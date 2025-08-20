@@ -4,20 +4,19 @@ languageDirection = "ltr"
 weight = 1
 
 title = "mbr"
-# copyright = "Copy, _right?_ :thinking_face:"
+copyright = ":copyright: mbr 2025"
 
 [params]
   dateFormat = "2 January 2006"
-
-  # mainSections = ["section1", "section2"]
-  # description = "My awesome website"
+  mainSections = ["posts", "artifacts"]
+  description = "Blog about software tools, techniques, and occasional existential crises that come with building software."
 
 [params.author]
-  # name = "MBR"
-  # image = "img/author.jpg"
-  # headline = "I'm only human"
-  # bio = "A little bit about you"
-  # links = [
+  name = "mbr"
+  image = "img/coffee_mug_new.png"
+  headline = ""
+  bio = "I write about the tools, techniques, and occasional existential crises that come with building software. Grab some coffee and stay a while."
+  links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
@@ -30,7 +29,7 @@ title = "mbr"
   #   { facebook = "https://facebook.com/username" },
   #   { flickr = "https://www.flickr.com/photos/username/" },
   #   { foursquare = "https://foursquare.com/username" },
-  #   { github = "https://github.com/username" },
+  #  { github = "https://github.com/monraza" },
   #   { gitlab = "https://gitlab.com/username" },
   #   { google = "https://www.google.com/" },
   #   { google-scholar = "https://scholar.google.com/citations?user=user-id" },
@@ -40,7 +39,7 @@ title = "mbr"
   #   { kickstarter = "https://www.kickstarter.com/profile/username" },
   #   { kofi = "https://ko-fi.com/username" },
   #   { lastfm = "https://lastfm.com/user/username" },
-  #   { linkedin = "https://linkedin.com/in/username" },
+  #  { linkedin = "https://linkedin.com/in/monisraza" },
   #   { mastodon = "https://mastodon.instance/@username" },
   #   { medium = "https://medium.com/username" },
   #   { mendeley = "https://www.mendeley.com/" },
@@ -64,4 +63,4 @@ title = "mbr"
   #   { x-twitter = "https://twitter.com/username" },
   #   { youtube = "https://youtube.com/username" },
   #   { xing = "https://xing.com/profile/username" },
-  # ]
+  ]

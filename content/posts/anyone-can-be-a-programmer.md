@@ -2,6 +2,7 @@
 title: "Anyone Can Be a Programmer"
 date: 2025-08-09T10:00:00Z
 draft: false
+summary: "We've evolved from punch cards to Python, and now AI lets us code in plain English, but this final leap comes with unprecedented responsibility upon us as programmers. I trace programming's 70-year journey to Natural Language Programming and share how to harness this revolutionary power while building software that's secure, scalable, and production-ready."
 categories: ["AI & Programming"]
 tags: ["ai", "programming", "natural-language", "productivity", "audio", "video"]
 

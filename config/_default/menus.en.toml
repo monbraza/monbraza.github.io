@@ -16,9 +16,15 @@
   weight = 10
 
 [[main]]
+  name = "Artifacts"
+  pageRef = "artifacts"
+  weight = 20
+
+
+[[main]]
   name = "About"
   pageRef = "about"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "GitHub"
@@ -28,6 +34,16 @@
     icon = "github"
     showName = false
     target = "_blank"
+
+[[main]]
+  name = "Linkedin"
+  url = "https://github.com/monraza"
+  weight = 30
+  [main.params]
+    icon = "linkedin"
+    showName = false
+    target = "_blank"
+
 
 [[main]]
   identifier = "search"

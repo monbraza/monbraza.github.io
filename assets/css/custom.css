@@ -1,0 +1,156 @@
+.summary {
+  font-size: 0.875rem !important;  /* Smaller than default */
+}
+
+/* Apple-style scrollbar for Table of Contents - Congo Theme Specific */
+
+/* Target your specific TOC structure */
+.toc,
+.toc details,
+.toc nav,
+#TableOfContents {
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
+
+/* Webkit scrollbar styling for your TOC structure */
+.toc::-webkit-scrollbar,
+.toc details::-webkit-scrollbar,
+.toc nav::-webkit-scrollbar,
+#TableOfContents::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.toc::-webkit-scrollbar-track,
+.toc details::-webkit-scrollbar-track,
+.toc nav::-webkit-scrollbar-track,
+#TableOfContents::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 3px;
+}
+
+.toc::-webkit-scrollbar-thumb,
+.toc details::-webkit-scrollbar-thumb,
+.toc nav::-webkit-scrollbar-thumb,
+#TableOfContents::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  transition: background-color 0.2s ease;
+}
+
+.toc::-webkit-scrollbar-thumb:hover,
+.toc details::-webkit-scrollbar-thumb:hover,
+.toc nav::-webkit-scrollbar-thumb:hover,
+#TableOfContents::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.toc::-webkit-scrollbar-thumb:active,
+.toc details::-webkit-scrollbar-thumb:active,
+.toc nav::-webkit-scrollbar-thumb:active,
+#TableOfContents::-webkit-scrollbar-thumb:active {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+/* Corner where horizontal and vertical scrollbars meet */
+.toc::-webkit-scrollbar-corner,
+.toc details::-webkit-scrollbar-corner,
+.toc nav::-webkit-scrollbar-corner,
+#TableOfContents::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* For light theme, use darker scrollbar */
+@media (prefers-color-scheme: light) {
+  .toc,
+  .toc details,
+  .toc nav,
+  #TableOfContents {
+    scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+  }
+
+  .toc::-webkit-scrollbar-thumb,
+  .toc details::-webkit-scrollbar-thumb,
+  .toc nav::-webkit-scrollbar-thumb,
+  #TableOfContents::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .toc::-webkit-scrollbar-thumb:hover,
+  .toc details::-webkit-scrollbar-thumb:hover,
+  .toc nav::-webkit-scrollbar-thumb:hover,
+  #TableOfContents::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .toc::-webkit-scrollbar-thumb:active,
+  .toc details::-webkit-scrollbar-thumb:active,
+  .toc nav::-webkit-scrollbar-thumb:active,
+  #TableOfContents::-webkit-scrollbar-thumb:active {
+    background: rgba(0, 0, 0, 0.6);
+  }
+}
+
+/* Hide scrollbar on mobile devices for cleaner look */
+@media (max-width: 768px) {
+  .toc::-webkit-scrollbar,
+  .toc details::-webkit-scrollbar,
+  .toc nav::-webkit-scrollbar,
+  #TableOfContents::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .toc,
+  .toc details,
+  .toc nav,
+  #TableOfContents {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+}
+
+/* If you need a fixed height for scrolling, add this: */
+.toc {
+  max-height: auto; /* Adjust as needed */
+  overflow-y: auto;
+}
+
+/* Alternative: Make the navigation container scrollable */
+/* #TableOfContents {
+  max-height: 60vh;
+  overflow-y: auto;
+} */
+
+/* Ensure TOC is collapsed by default on mobile */
+@media (max-width: 1023px) {
+  .toc details {
+    /* Force closed state on mobile */
+    open: false;
+  }
+  
+  .toc details[open] summary {
+    /* Style for when TOC is expanded */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Optional: Customize the mobile toggle appearance */
+@media (max-width: 1023px) {
+  .toc details summary {
+    /* Add arrow indicator */
+    position: relative;
+  }
+  
+  .toc details summary::after {
+    content: "▼";
+    position: absolute;
+    right: 1rem;
+    transition: transform 0.2s ease;
+  }
+  
+  .toc details[open] summary::after {
+    transform: rotate(180deg);
+  }
+}

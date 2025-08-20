@@ -22,6 +22,12 @@ summaryLength = 0
   [privacy.youTube]
     privacyEnhanced = true
 
+# Add this section to enable taxonomies
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
 [services]
   [services.x]
     disableInlineCSS = true

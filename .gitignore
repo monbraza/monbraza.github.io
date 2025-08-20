@@ -28,3 +28,7 @@ yarn-error.log*
 # Temporary files
 *.tmp
 *.temp
+
+CLAUDE.md
+GEMINI.md
+tests/
