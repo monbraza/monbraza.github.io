@@ -1,4 +1,4 @@
-<div class="mt-10 text-neutral-800 dark:text-neutral-100">
+<div class="text-neutral-800 dark:text-neutral-100">
     {{ with .Params.audio_url }}
     <div class="mb-2">
         <h3 class="mt-0 text-lg">🎧 Listen as a podcast</h3>
@@ -10,11 +10,25 @@
     </div>
     {{ end }}
     {{ with .Params.video_url }}
-    <div class="mt-6 mb-2 rounded-md box-border mt-4">
-        <h3 class="mt-0 text-lg">Watch key points</h3>
-        <video controls src="{{ . }}" class="w-full max-w-full border border-gray-400 p-2 box-border">
-            Your browser does not support the video tag.
-        </video>
+    <!-- <details class="-ms-5 mt-6 mb-6 rounded-lg ps-5">
+        <summary
+            class="block cursor-pointer py-1 text-lg font-semibold text-neutral-800 dark:text-neutral-100"
+        >
+            Watch key points
+        </summary>
+        <div class="py-2 dark:border-neutral-600">
+            <video controls src="{{ . }}" class="w-full max-w-full border border-gray-400 p-2 box-border">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </details> -->
+    {{ end }}
+    {{ with .Params.download_url }}
+    <div class="mb-2">
+        <h3 class="mt-0 text-lg">Download</h3>
+        <div class="flex">
+        <a href="{{ . }}"></a>
+        </div>
     </div>
     {{ end }}
 </div>

@@ -2,6 +2,12 @@
   font-size: 0.875rem !important;  /* Smaller than default */
 }
 
+@media (min-width: 1024px) {
+    .ml-80 {
+      margin-left: 80px
+    }
+}
+
 /* Apple-style scrollbar for Table of Contents - Congo Theme Specific */
 
 /* Target your specific TOC structure */
@@ -12,6 +18,12 @@
   /* Firefox */
   scrollbar-width: thin;
   scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
+
+@media (max-width: 1023px) {
+  #TableOfContents_Desktop {
+    display: none;
+  }
 }
 
 /* Webkit scrollbar styling for your TOC structure */
@@ -125,10 +137,6 @@
 
 /* Ensure TOC is collapsed by default on mobile */
 @media (max-width: 1023px) {
-  .toc details {
-    /* Force closed state on mobile */
-    open: false;
-  }
   
   .toc details[open] summary {
     /* Style for when TOC is expanded */
